@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+</head>
+<body>
+    <form >
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Rajesh"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Rohan"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="rajeshrohan@gmail.com"><br>
+
+        <label>Username: <input type="text" name="username"></label><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+
+    <!--
+        you can wrap the input field within the <label> tag
+        attributes of input field: text, password, checkbox, radio button.
+        we use for in label and id in input to set association or connection btwn them.
+        we use name in input to identify data , in server side.
+        in input you can pre-define the value also or can leave blank.
+        type attribute provides built-in form validation.
+
+        id : it identifies each element uniquely
+        class : multiple elements can have same class.
+        class is used to target a group of elements at a time.
+
+        form can have multiple attributes : 
+            1. action : for giving url
+            2. method : ger or post
+            3. target : _blank, _self, _parent, _top (prent and top are high level thing)
+            4. name : for server side indentification
+            5. autocomple : previous filled data suggestion
+
+    -->
+    <!--
+        the default width of an input field is 20 characters.
+    -->
+</body>
+</html>
