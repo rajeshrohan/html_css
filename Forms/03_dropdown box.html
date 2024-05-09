@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Dropdown, TextArea, Button, fieldset-legend,  -->
+    <!--Dropdown-->
+    <label for="cars">Choose a car :</label>
+    <select id="cars" name="cars" >
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="lamborgini" >Lamborgini</option>
+        <option value="ferrari" selected>Ferrari</option>
+    </select><br>
+
+    <!--TextArea-->
+    <textarea name="message" rows="10" cols="30">Rohan is learning </textarea><br>
+
+    <!--Button-->
+    <button type="button" onclick="alert('button is click')">Click Here</button>
+    <input type="submit" value="Submit">
+
+    <!--Fieldset- Legend-->
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>personal details:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        </fieldset>
+        <fieldset>
+        <legend>working task:</legend>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form><br><br>
+
+      
+      <!--datalist-->
+      <form>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="chrome"></option>
+            <option value="firefox"></option>
+            <option value="Edge"></option>
+            <option value="opera"></option>
+            <option value="safari"></option>
+        </datalist>
+      </form><br><br>
+
+
+      <!--output-->
+      <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output  name="x" for="a b" ></output><br><br>
+        <input type="submit">
+      </form>
+    
+
+
+    <!--
+    selected: inside option to select by default
+    size:     inside select to display a no of options on screen
+    multiple: inside select to select multiple &  by default it shows all options
+
+    textarea: used for multi line text , attributes : rows, cols
+
+    <button type="button"> is for complex use than <input type=button>
+
+    <fieldset> element is used to group related data in a form.
+    <legend> element defines a caption for the <fieldset> element.
+    it appears in a box , with the caption of legend
+
+    datalist : use input with datalist, to provide predefined dropdown list
+    input list=" " same as datalist id=" "
+
+    output : input , output, and oninput event listner in form attribute
+    used for realtime changes calculations
+  
+    input type="range" = gives a scrolling bar 0 to 100 
+
+    -->
+
+</body>
+</html>
