@@ -32,12 +32,22 @@
         <input type="submit" value="Submit">
         
     </form>
+
+    <label for="file">Upload Progress:</label>
+    <progress id="file" value="50" max="100">50%</progress>
+
+    <label for="quiz">Quiz Score:</label>
+    <meter id="quiz" value="80" min="0" max="100">80%</meter>
+
     <!-- 
         Radio buttons allow to select only ONE of number of choices.
         Checkboxes allows to select ZERO or MORE number of choices.
 
         Notice that each input field must have a name attribute to be submitted.
         If the name attribute is omitted, the value of the input field will not be sent at all.
+
+        we have progress and meter also, used to represent a scalar measurement within a known range.
+        ex : progress bar 
     -->
 </body>
 </html>

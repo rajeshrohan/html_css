@@ -19,6 +19,47 @@ Form :
     fieldset - legend tag : for separate box divide 
     DataList id="", option value=" "    // when clicked multiple options 
 ---------------------------------------------------------------------------- 
+html recommendation: 
+    not case sensitive : but to use lowercase
+    don't require quote : but recommended , width = " 30px", 
+    In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+    title = 'the "rajesh" star'
+
+tag, element, empty element, attributes, 
+
+element : opening tag + content + closing tag
+attributes : it provide additional information about HTML elements.
+    ex : src, href, style , alt , height, width
+
+
+
+
+Inline elements :
+elements that do not start on a new line and only take up as much width as necessary.
+ex: span, a , strong, em, img, input, br, i , b
+
+Block level ements:
+HTML elements that typically start on a new line and occupy the full width available 
+ex : div, p, h1, ul, ol, form, table (tr, th,td in table context only)
+
+
+Global attributes : Attributes that can be applied to any HTML element, regardless of its type. 
+    ex: class, id, style, title, lang, dir, accesskey, contenteditable
+
+iframe tag  is used to display a web page within a web page.
+
+semantics : header , footer, section
+
+html vs xml
+
+<p title="topic name "> when we add a title to  paragraph , its called tooltip </p>
+ul, ol, li
+
+
+
+
+
+
 
 
 

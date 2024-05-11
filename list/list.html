@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #list1{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color :coral;
+        }
+        #list1 li{
+            float: left; 
+        }
+        #list1 li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration:none;
+        }
+        #list1 li a:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li style="list-style: disc;">disc</li>
+        <li style="list-style: circle;">circle</li>
+        <li style="list-style: square;">square</li>
+        <li style="list-style: none">none</li>
+    </ul>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#signin">Sign in</a></li>
+    </ul>
+
+    <ul id="list1">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#signin">Sign in</a></li>
+    </ul>
+
+
+
+    <ol>
+        <li type="1">Decimal</li>
+        <li type="A">Upper Case</li>
+        <li type="a">lower case</li>
+        <li type="I">upper roman</li>
+        <li type="i">lower roman</li>
+        <li type="1" start="100">Decimal</li>
+        <li type="1">Decimal</li>
+        <li type="1">Decimal</li>
+    </ol>
+
+    <ol start="101">
+        <li type="1">Decimal</li>
+        <li type="1">Decimal</li>
+        <li type="1">Decimal</li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>while cold drink</dd>
+
+    </dl>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+
+
+
+
+
+    <!--
+        ul - unordered list  - bulletins
+            types : disc, circle, square, none using css list-style-type
+        ol - ordered list    - numbering 
+        li - list
+
+        dl - description list
+        dt - a term in a description list
+        dd - each item description
+
+        list has type attribute : 
+            type="1", a, A, i, I    in li
+            start="10"              in ol 
+
+
+        nested list
+
+        vertical list , by default
+        horizontal list, using css
+
+        text-decoration: none    to remove under line from anchor list
+        in a href if you use #, it will not go to any url page, it will be inactive
+
+        float:left to display a list horizontally
+
+    -->
+    
+</body>
+</html>
