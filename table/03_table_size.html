@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        /* td,th{  
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            padding: 80px;
+        } */
+        /* table{
+            border-spacing: 30px;
+        } */
+
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <caption>Student Details</caption>
+        <thead>
+            <tr style="height: 50px;">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Class</th>
+                <th>Roll No</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rajesh</td>
+                <td>Rohan</td>
+                <td>10</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Ruchi</td>
+                <td>Kumari</td>
+                <td>9</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Katrina</td>
+                <td>Kaif</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--  table, tr, th, td
+        width % = as per the parent width
+        table = default width is as per necessary, or it can overflow viewport
+        column width : percentage  
+        row height : pixel
+
+        set width of any column : use th, td
+        when we change the width of a column or a cell, it affects the entire column, 
+        because width of each cell in a column is determined by the widest cell in that column
+
+        set height of any row : use tr
+        here we can't use height as %, instead use px. 
+        as height of row is determined by the content inside it.
+
+        we can set th, table header as vertical, horizontal or both .
+
+        padding of cell: by default 0 , padding: 0px 
+        cell spacing : by default 2px , border-spacing : 2px
+
+
+
+
+
+    -->
+    
+</body>
+</html>

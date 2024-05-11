@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------
+Table : 
+    table, tr, th, td, caption, thead, tbody, tfoot
+    border, border-collapse, border-style, border-color 
+    padding, border-spacing, width
+    colspan, rowspan, span
+    colgroup, col, span
+    hover
+---------------------------------------------------------------------------
+Form : 
+    action, method, target, name, autocomplete
+    lable for, input type id name value
+    type= radio, checkbox
+    Button : type:" ", onclick=" ", 
+    input type:"submit" value"submit"
+
+    Dropdown : select id=" ", option value=:" "
+    TextArea : name:" ", rows:" ", cols:" "
+    fieldset - legend tag : for separate box divide 
+    DataList id="", option value=" "    // when clicked multiple options 
+---------------------------------------------------------------------------- 
+
+
+
+    
+
